@@ -9,9 +9,5 @@ while True:
         saldo += investimento_mensal
         saldo += saldo * taxa_juros
 
-    print(f"Saldo do investimento após 1 ano: R$ {saldo:.2f}")
-    
-    # Perguntar ao usuário se quer mais um ano
-    continuar = input("Deseja processar mais um ano? (S/N): ").strip().upper()
-    if continuar != 'S':
-        break
+    print(f"Saldo final em 1 ano: R$ {saldo:.2f}")
+    break
